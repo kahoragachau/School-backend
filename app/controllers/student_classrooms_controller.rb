@@ -6,12 +6,12 @@ class StudentClassroomsController < ApplicationController
        render json: student_classroom
     end
     def show
-        student_classroom = StudentClassroom(params[:id])
+        student_classroom = StudentClassroom.find(params[:id])
 
         render json: student_classroom
     end
     def create
-        student_classroom = StudentClassroom(student_classroom_params)
+        student_classroom = StudentClassroom.create(student_classroom_params)
         render json: student_classroom, status: :created
     end
 

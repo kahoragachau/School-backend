@@ -17,7 +17,7 @@ class SchoolsController < ApplicationController
 
    #PATCH
    def update
-       school = Sc.find(params[:id])
+       school = School.find(params[:id])
        school.update(school_params)
        render json: school
    end
