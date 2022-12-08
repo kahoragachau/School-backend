@@ -1,0 +1,16 @@
+current directory: /home/amos/rails/school-backend/vendor/bundle/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+/usr/bin/ruby3.0 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20221208-6524-smpuhc.rb extconf.rb
+creating Makefile
+
+current directory: /home/amos/rails/school-backend/vendor/bundle/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /home/amos/rails/school-backend/vendor/bundle/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/amos/rails/school-backend/vendor/bundle/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20221208-6524-dxvo6p/debug
