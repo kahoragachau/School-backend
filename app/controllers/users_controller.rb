@@ -12,7 +12,7 @@ class UsersController < ApplicationController
         render json: user, status: :created
     end
     def user_params
-        params.permit(:username, :password_digest, :password, :role)
+        params.permit(:username, :password_digest, :role)
      end
  
 end
