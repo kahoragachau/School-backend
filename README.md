@@ -1,24 +1,32 @@
-# README
+## PROJECT NAME
+---
+School Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## AUTHORS
+---
+- Amos Maundu
+- PeterJackson Ndigara
+- Seron
+- Joel Kajora
 
-Things you may want to cover:
+## PROJECT DESCRIPTION
+This is the backend for the Skoolie project, It was best to separate our backend from our frontend so as developers to work on thier respectful tasks. The backend models, controllers and routes in order for the frontend to achieve its MVPs.
 
-* Ruby version
+### MODELS
+---
+```
+- User Table
+- Owners table
+- School Table
+- Educators Table
+- Students Table
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### CONTROLLERS
+---
+```
+users#create
+users#show
+sessions#create
+sessions#destroy
+```
